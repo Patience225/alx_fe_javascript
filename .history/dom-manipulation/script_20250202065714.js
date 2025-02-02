@@ -1,3 +1,5 @@
+
+
 // Global array to store quotes
 let quotes = [];
 
@@ -117,7 +119,7 @@ function createImportExportButtons() {
   // Export Button
   const exportButton = document.createElement("button");
   exportButton.id = "exportButton";
-  exportButton.textContent = "Export Quotes";
+  exportButton.textContent = "Export Quotes as JSON";
   exportButton.addEventListener("click", exportQuotesAsJson);
   container.appendChild(exportButton);
 
